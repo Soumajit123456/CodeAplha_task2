@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f0f2f5; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+
+<div class="todo-container" style="background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: 400px; text-align: center;">
+    <h1 style="margin-bottom: 20px; color: #333;">To-Do List</h1>
+    <form id="todo-form" style="display: flex; justify-content: center; margin-bottom: 20px;">
+        <input type="text" id="todo-input" placeholder="Add a new task" required style="padding: 10px; border: 1px solid #ccc; border-radius: 5px; width: calc(100% - 90px); margin-right: 10px; font-size: 16px; box-sizing: border-box;">
+        <button type="submit" style="padding: 10px 20px; background-color: #007BFF; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Add</button>
+    </form>
+    <ul id="todo-list" style="list-style-type: none; padding: 0;"></ul>
+</div>
+
+<script src="t2_todo.js"></script>
+
+</body>
+</html>
